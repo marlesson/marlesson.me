@@ -1,0 +1,82 @@
+body {
+  font-family: Helvetica; /*"Lucida Grande";*/
+}
+
+.profile_picture {
+  /* background-image: url("http://www.gravatar.com/avatar/68fe78a2b1fa6c16a0c2f985d8d0f5d0.png"); */
+  background-image: url("http://www.gravatar.com/avatar/3e54ac4cc67963a93820b8baf55952c4.png");
+  width: 80px;
+  height: 80px;
+  background-size: 82px;
+  border-radius: 22px;
+  border: 2px solid black;
+  float:left;
+  margin: 5%;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+  margin-top: 5%;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  text-indent: 1%;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 150px;
+  box-shadow: 0 1px 10px #A7A7A7, inset 0 1px 0 white;
+  padding-bottom: 20px;
+  width: 330px;
+  margin: 150px auto 0;
+  height:
+}
+
+.card table {
+  margin:0 auto;
+}
+
+.card table tr td:first-child {
+  padding-right: 5%;
+}
+
+.card table tr td {
+  line-height: 2em;
+  vertical-align: bottom;
+  font-size: 14px
+}
+
+.zocial.icon {
+  transform: scale(0.6);
+  -ms-transform: scale(0.6); /* IE 9 */
+  -webkit-transform: scale(0.6); /* Safari and Chrome */
+  -o-transform: scale(0.6); /* Opera */
+  -moz-transform: scale(0.6); /* Firefox */
+  margin: -5px
+}
+
+.social {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+a {
+  color: #000;
+}
+
+body {
+  background-color: #e6f3fc;
+  color: #000;
+
+}
+
+.card {
+  background-color: #fff
+}
